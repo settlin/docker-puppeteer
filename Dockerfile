@@ -3,7 +3,7 @@
 # Based upon:
 # https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-in-docker
 
-FROM settlin:meteord
+FROM settlin/meteord
     
 RUN  apt-get update \
      # See https://crbug.com/795759
